@@ -16,8 +16,8 @@ graph TD;
     Username-->AdminMenu;
     AdminMenu-->ManageContent;
     AdminMenu-->Logout;
-    ManageContent-->Logout;
-    ManageAdmins-->Logout;
+    ManageContent-->ManageAdmins;
+    Logout-->ManageAdmins;
 ```
 ```mermaid
 graph TD;
