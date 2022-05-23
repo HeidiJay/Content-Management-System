@@ -17,6 +17,7 @@ graph TD;
     AdminMenu-->ManageContent;
     AdminMenu-->Logout;
     ManageContent-->ManageAdmins;
+    ManageContent-->Logout;
     ManageAdmins-->Logout;
 ```
 ```mermaid
