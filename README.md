@@ -18,7 +18,6 @@ graph TD;
     AdminMenu-->Logout;
     ManageContent-->ManageAdmins;
     Logout-->ManageAdmins;
-    ManageAdmins-->Logout;
     ManageContent-->Subjects;
     Subjects-->Pages;
     Pages-->Subjects;
