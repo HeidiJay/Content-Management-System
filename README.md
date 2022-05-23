@@ -16,7 +16,6 @@ graph TD;
     Username-->AdminMenu;
     AdminMenu-->ManageContent;
     AdminMenu-->Logout;
-    ManageContent-->ManageAdmins;
     ManageContent-->Logout;
     ManageAdmins-->Logout;
 ```
