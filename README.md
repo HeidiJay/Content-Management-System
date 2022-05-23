@@ -1,6 +1,13 @@
 "# Content-Management-System" 
 ```mermaid
 graph TD;
+    CMSplans-->CMS;
+    CMS-->PublicArea;
+    CMS-->AdminArea;
+    AdminArea-->PublicArea;
+```
+```mermaid
+graph TD;
     PublicArea-->Navigation;
     PublicArea-->PageContent;
     Navigation-->ReadOnly;
@@ -25,11 +32,4 @@ graph TD;
     Logout-->DoLogout;
     DoLogout-->BackToLogin;
     BackToLogin-->DoLogout;
-```
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
 ```
