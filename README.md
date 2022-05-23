@@ -1,10 +1,10 @@
 "# Content-Management-System" 
 ```mermaid
 graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+    Public Area-->Site Pages
+    Navigation
+    Page content
+    Read only;
 ```
 ```mermaid
 graph TD;
