@@ -18,6 +18,13 @@ graph TD;
     AdminMenu-->Logout;
     ManageContent-->ManageAdmins;
     Logout-->ManageAdmins;
+    ManageContent-->Subjects;
+    Subjects-->Pages;
+    Pages-->Subjects;
+    ManageAdmins-->Admins;
+    Logout-->DoLogout;
+    DoLogout-->BackToLogin;
+    BackToLogin-->DoLogout;
 ```
 ```mermaid
 graph TD;
