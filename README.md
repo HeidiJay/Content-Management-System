@@ -11,9 +11,8 @@ graph TD;
     AdminArea-->LoginPage;
     LoginPage-->Form;
     LoginPage-->Password;
-    Form-->Password;
-    Username-->Password;
-
+    Form-->Username;
+    Password-->Username;
 ```
 ```mermaid
 graph TD;
