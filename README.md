@@ -8,6 +8,15 @@ graph TD;
 ```
 ```mermaid
 graph TD;
+    AdminArea-->LoginPage;
+    LoginPage-->Form;
+    LoginPage-->Password;
+    Form-->Password;
+    Username-->Password;
+
+```
+```mermaid
+graph TD;
     A-->B;
     A-->C;
     B-->D;
