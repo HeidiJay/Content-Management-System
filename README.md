@@ -13,6 +13,11 @@ graph TD;
     LoginPage-->Password;
     Form-->Username;
     Password-->Username;
+    Username-->AdminMenu;
+    AdminMenu-->ManageContent;
+    AdminMenu-->Logout;
+    ManageContent-->ManageAdmins;
+    ManageAdmins-->Logout;
 ```
 ```mermaid
 graph TD;
