@@ -1,4 +1,5 @@
 "_I built this ReadMe with Json" 
+Plans for how the CMS will work
 "# Content-Management-System" 
 ```mermaid
 graph TD;
